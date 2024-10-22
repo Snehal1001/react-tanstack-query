@@ -32,9 +32,9 @@ const PostsTraditional = () => {
   return (
     <div className="post-list">
       {posts.map((post) => (
-        <div className="post-item" key={post.Name}>
-          <h3 className="post-title">{post.Name}</h3>
-          <p className="post-body">{post.Homeworld}</p>
+        <div className="post-item" key={post.id}>
+          <h3 className="post-title">{post.title}</h3>
+          <p className="post-body">{post.body}</p>
         </div>
       ))}
     </div>
