@@ -22,6 +22,10 @@ body {
   pointer-events: none;
 }
 
+.container {
+  padding: 1rem;
+}
+
 nav {
   background-color: #2f3136;
   padding: 10px 20px;
@@ -68,6 +72,11 @@ nav ul li a.active {
   margin: 0 auto;
 }
 
+.post-list a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .post-item {
   background-color: #40444b;
   border-radius: 8px;
@@ -90,6 +99,22 @@ nav ul li a.active {
   font-size: 14px;
   color: #b9bbbe;
   margin-top: 8px;
+}
+
+.fruit-label {
+  font-size: 2rem;
+}
+
+.fruit-item {
+  background-color: #40444b;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.fruit-item:hover {
+  background-color: #4f545c;
 }
 
 .App-header {

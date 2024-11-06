@@ -30,10 +30,10 @@ const PaginatedQueries = () => {
           {item.name}
         </div>
       ))}
-      <button onClick={() => setPage(page - 1)} disabled={page == 1}>
+      <button onClick={() => setPage(page - 1)} disabled={page === 1}>
         Prev Page
       </button>
-      <button onClick={() => setPage(page + 1)} disabled={page == 5}>
+      <button onClick={() => setPage(page + 1)} disabled={page === 5}>
         Next Page
       </button>
     </div>
